@@ -32,7 +32,7 @@ aside{
     background-color: rgb(83, 83, 83);
     width: 200px;
     height: 100vh;
-    padding-top: 10.5em;
+    padding-top: 13em;
     top: 0;
 }
 aside>ul{
@@ -42,9 +42,14 @@ aside>ul{
 aside>ul>li>a{
     display: block;
     padding: 0.4em;
+    text-transform: uppercase;
+}
+aside>ul>li>a:hover{
+    color: gold;
+    text-decoration: underline;
 }
 main{
-    margin-top: 10.5em;
+    margin-top: 13em;
     margin-left: 200px;
     padding: 1em;
     padding-bottom: 6em;

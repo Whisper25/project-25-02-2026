@@ -1,0 +1,35 @@
+.list,
+.sub-list{
+    list-style: none;
+    padding-left: 0;
+}
+.menu-item{
+    display: inline-block;
+    position: relative;
+}
+.menu-item a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+.menu-item:hover>a,
+.sub-list>li:hover>a{
+    color: gold;
+    text-decoration: underline;
+}
+.sub-list{
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+.menu-item:hover>.sub-list{
+    display: block;
+}
+.sub-list>li{
+    position: relative;
+}
+.sub-list>li:hover>.sub-list{
+    display: block;
+    left: 100%;
+    top: 0;
+}
